@@ -1,0 +1,69 @@
+[0.042s] Invoking command in '/home/xamjam/ros2_ws/build/turtle_sim_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xamjam/ros2_ws/build/turtle_sim_project -- -j16 -l16
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target turtle_spawner_node[0m
+[0.082s] [ 50%] Built target turtle_controller_node
+[0.087s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_spawner_node.dir/src/turtle_spawner.cpp.o[0m
+[1.619s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.620s]                  from [01m[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:1[m[K:
+[1.620s] [01m[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:[m[K In member function ‘[01m[Kvoid TurtleSpawnerNode::spawner_callback()[m[K’:
+[1.620s] [01m[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:106:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.620s]   106 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"Choosing turtle %s  in alive turtles = %s"[m[K, it.first, it.second->name);
+[1.620s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.620s] [01m[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:106:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.620s]   106 |                 RCLCPP_INFO(this->get_logger(), "Choosing turtle [01;36m[K%s[m[K  in alive turtles = %s", it.first, it.second->name);
+[1.620s]       |                                                                  [01;36m[K~^[m[K
+[1.620s]       |                                                                   [01;36m[K|[m[K
+[1.620s]       |                                                                   [01;36m[Kchar*[m[K
+[1.620s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.620s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.621s]                  from [01m[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:1[m[K:
+[1.621s] [01m[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:106:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kcustom_interfaces::msg::Turtle_<std::allocator<void> >::_name_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.622s]   106 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"Choosing turtle %s  in alive turtles = %s"[m[K, it.first, it.second->name);
+[1.622s]       |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.622s] [01m[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:106:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.622s]   106 |                 RCLCPP_INFO(this->get_logger(), "Choosing turtle %s  in alive turtles = [01;36m[K%s[m[K", it.first, it.second->name);
+[1.622s]       |                                                                                         [01;36m[K~^[m[K
+[1.622s]       |                                                                                          [01;36m[K|[m[K
+[1.622s]       |                                                                                          [01;36m[Kchar*[m[K
+[4.171s] [100%] [32m[1mLinking CXX executable turtle_spawner_node[0m
+[4.354s] [100%] Built target turtle_spawner_node
+[4.364s] Invoked command in '/home/xamjam/ros2_ws/build/turtle_sim_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xamjam/ros2_ws/build/turtle_sim_project -- -j16 -l16
+[4.386s] Invoking command in '/home/xamjam/ros2_ws/build/turtle_sim_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xamjam/ros2_ws/build/turtle_sim_project
+[4.391s] -- Install configuration: ""
+[4.391s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/lib/turtle_sim_project/turtle_controller_node
+[4.391s] -- Installing: /home/xamjam/ros2_ws/install/turtle_sim_project/lib/turtle_sim_project/turtle_spawner_node
+[4.395s] -- Set runtime path of "/home/xamjam/ros2_ws/install/turtle_sim_project/lib/turtle_sim_project/turtle_spawner_node" to ""
+[4.395s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/ament_index/resource_index/package_run_dependencies/turtle_sim_project
+[4.395s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/ament_index/resource_index/parent_prefix_path/turtle_sim_project
+[4.395s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/environment/ament_prefix_path.sh
+[4.395s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/environment/ament_prefix_path.dsv
+[4.395s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/environment/path.sh
+[4.396s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/environment/path.dsv
+[4.396s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/local_setup.bash
+[4.396s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/local_setup.sh
+[4.396s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/local_setup.zsh
+[4.396s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/local_setup.dsv
+[4.396s] -- Installing: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/package.dsv
+[4.396s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/ament_index/resource_index/packages/turtle_sim_project
+[4.396s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/cmake/turtle_sim_projectConfig.cmake
+[4.396s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/cmake/turtle_sim_projectConfig-version.cmake
+[4.396s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/package.xml
+[4.397s] Invoked command in '/home/xamjam/ros2_ws/build/turtle_sim_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xamjam/ros2_ws/build/turtle_sim_project

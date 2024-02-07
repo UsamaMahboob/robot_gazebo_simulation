@@ -11,9 +11,10 @@ find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(custom_interfaces REQUIRED)
+find_package(std_srvs REQUIRED)
 
 add_executable(turtle_controller_node src/turtle_controller_node.cpp)
-ament_target_dependencies(turtle_controller_node rclcpp turtlesim geometry_msgs custom_interfaces)
+ament_target_dependencies(turtle_controller_node rclcpp turtlesim geometry_msgs custom_interfaces std_srvs)
 
 add_executable(turtle_spawner_node src/turtle_spawner.cpp)
 ament_target_dependencies(turtle_spawner_node rclcpp turtlesim custom_interfaces)

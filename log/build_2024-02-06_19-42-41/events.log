@@ -1,0 +1,313 @@
+[0.000000] (-) TimerEvent: {}
+[0.000305] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000391] (turtle_sim_project) JobQueued: {'identifier': 'turtle_sim_project', 'dependencies': OrderedDict([('custom_interfaces', '/home/xamjam/ros2_ws/install/custom_interfaces')])}
+[0.000472] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.040821] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.041154] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.041598] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xamjam/ros2_ws/build/custom_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/xamjam/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xamjam'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xamjam/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xamjam'), ('OLDPWD', '/home/xamjam'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1151'), ('SYSTEMD_EXEC_PID', '1310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '31667'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xamjam/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xamjam'), ('JOURNAL_STREAM', '8:32317'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xamjam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xamjam-X570:@/tmp/.ICE-unix/1291,unix/xamjam-X570:/tmp/.ICE-unix/1291'), ('INVOCATION_ID', '5d2b94eced38449885524a4e4cfc18be'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y2I0H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:367b814e-910c-4d17-9e23-42ddc53edb2a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xamjam/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble')]), 'shell': False}
+[0.077408] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target custom_interfaces__cpp\n'}
+[0.078472] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__rosidl_generator_c\n'}
+[0.084881] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[0.092590] (custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[0.092760] (custom_interfaces) StdoutLine: {'line': b'[ 34%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[0.093131] (custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.093204] (custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.093254] (custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.094237] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.099855] (-) TimerEvent: {}
+[0.107848] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces\n'}
+[0.124574] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__py\n'}
+[0.140915] (custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target custom_interfaces__rosidl_generator_py\n'}
+[0.157076] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.157264] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.157365] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.199949] (-) TimerEvent: {}
+[0.238160] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.238512] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[0.238650] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[0.238806] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[0.240012] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[0.240395] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[0.256368] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[0.264783] (custom_interfaces) CommandEnded: {'returncode': 0}
+[0.300009] (-) TimerEvent: {}
+[0.339368] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[0.345751] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xamjam/ros2_ws/build/custom_interfaces'], 'cwd': '/home/xamjam/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xamjam'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xamjam/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xamjam'), ('OLDPWD', '/home/xamjam'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1151'), ('SYSTEMD_EXEC_PID', '1310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '31667'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xamjam/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xamjam'), ('JOURNAL_STREAM', '8:32317'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xamjam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xamjam-X570:@/tmp/.ICE-unix/1291,unix/xamjam-X570:/tmp/.ICE-unix/1291'), ('INVOCATION_ID', '5d2b94eced38449885524a4e4cfc18be'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y2I0H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:367b814e-910c-4d17-9e23-42ddc53edb2a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xamjam/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble')]), 'shell': False}
+[0.351371] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.351473] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[0.351563] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.351654] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.351753] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/turtle_array.h\n'}
+[0.351847] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.351939] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__functions.h\n'}
+[0.352015] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__struct.h\n'}
+[0.352069] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__struct.h\n'}
+[0.352120] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__type_support.h\n'}
+[0.352183] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__type_support.h\n'}
+[0.352235] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__functions.c\n'}
+[0.352306] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__functions.h\n'}
+[0.352384] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__functions.c\n'}
+[0.352472] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/turtle.h\n'}
+[0.352537] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.352599] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[0.352654] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[0.352702] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__functions.h\n'}
+[0.352773] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__functions.c\n'}
+[0.352838] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__struct.h\n'}
+[0.352900] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__type_support.h\n'}
+[0.352973] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/turtle_kill.h\n'}
+[0.353030] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[0.353073] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[0.353126] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[0.353168] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.353209] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.353250] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.353298] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.353341] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[0.353381] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[0.353424] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[0.353490] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[0.353556] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.353622] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.353683] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.353744] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.353797] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.353857] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[0.353922] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__type_support.c\n'}
+[0.353982] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__type_support.c\n'}
+[0.354041] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[0.354094] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.354141] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[0.354193] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[0.354235] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__rosidl_typesupport_introspection_c.h\n'}
+[0.354276] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__type_support.c\n'}
+[0.354334] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.354394] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[0.354466] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.354526] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.354578] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.354620] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__traits.hpp\n'}
+[0.354809] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__struct.hpp\n'}
+[0.354851] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__builder.hpp\n'}
+[0.354903] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__builder.hpp\n'}
+[0.354944] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__struct.hpp\n'}
+[0.354984] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__traits.hpp\n'}
+[0.355038] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/turtle.hpp\n'}
+[0.355098] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/turtle_array.hpp\n'}
+[0.355141] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[0.355190] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[0.355238] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__traits.hpp\n'}
+[0.355280] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__builder.hpp\n'}
+[0.355321] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__struct.hpp\n'}
+[0.355370] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/turtle_kill.hpp\n'}
+[0.355411] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.355451] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.355500] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.355543] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.355584] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.355632] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.355690] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[0.355768] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[0.355848] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[0.355915] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[0.355989] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.356048] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.356091] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[0.356133] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[0.356174] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[0.356215] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__type_support.cpp\n'}
+[0.356254] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__type_support.cpp\n'}
+[0.356302] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.356358] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.356399] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[0.356439] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[0.356478] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__type_support.cpp\n'}
+[0.356517] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/turtle_kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.356558] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.356597] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.356637] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[0.356676] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[0.356715] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.356754] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.356793] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.356832] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.356871] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.356910] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[0.356948] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.356993] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.357035] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.357076] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.357124] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg\n'}
+[0.357164] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_turtle_array_s.c\n'}
+[0.357204] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[0.357244] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_turtle_array.py\n'}
+[0.357286] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_turtle_s.c\n'}
+[0.357326] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_turtle.py\n'}
+[0.357366] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[0.357405] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[0.357444] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_turtle_kill.py\n'}
+[0.357497] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_turtle_kill_s.c\n'}
+[0.357538] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[0.357577] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.357617] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[0.357657] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.376092] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[0.376247] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[0.376323] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[0.378922] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.379215] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.379496] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.379780] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[0.379920] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Turtle.idl\n'}
+[0.379994] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/TurtleArray.idl\n'}
+[0.380066] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/TurtleKill.idl\n'}
+[0.380140] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Turtle.msg\n'}
+[0.380200] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/TurtleArray.msg\n'}
+[0.380265] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/TurtleKill.srv\n'}
+[0.380328] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/TurtleKill_Request.msg\n'}
+[0.380392] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/TurtleKill_Response.msg\n'}
+[0.380455] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[0.380519] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[0.380565] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[0.380608] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.380651] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[0.380707] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[0.380759] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[0.380811] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[0.380857] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[0.380916] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[0.380969] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[0.381023] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[0.381083] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.381148] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.381195] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.381252] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.381299] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.381359] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.381403] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.381464] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.381514] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.381569] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.381631] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.381692] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.381754] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.381815] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.381880] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.381925] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.381968] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.382011] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.382053] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.382094] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.382136] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.382177] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.382226] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.382268] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.382311] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[0.382353] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[0.382394] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xamjam/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[0.383509] (custom_interfaces) CommandEnded: {'returncode': 0}
+[0.400098] (-) TimerEvent: {}
+[0.500303] (-) TimerEvent: {}
+[0.563124] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[0.563685] (turtle_sim_project) JobStarted: {'identifier': 'turtle_sim_project'}
+[0.600381] (-) TimerEvent: {}
+[0.605772] (turtle_sim_project) JobProgress: {'identifier': 'turtle_sim_project', 'progress': 'cmake'}
+[0.606100] (turtle_sim_project) JobProgress: {'identifier': 'turtle_sim_project', 'progress': 'build'}
+[0.606567] (turtle_sim_project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xamjam/ros2_ws/build/turtle_sim_project', '--', '-j16', '-l16'], 'cwd': '/home/xamjam/ros2_ws/build/turtle_sim_project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xamjam'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/xamjam/ros2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/xamjam'), ('OLDPWD', '/home/xamjam'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1151'), ('SYSTEMD_EXEC_PID', '1310'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '31667'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xamjam/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'xamjam'), ('JOURNAL_STREAM', '8:32317'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xamjam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/xamjam-X570:@/tmp/.ICE-unix/1291,unix/xamjam-X570:/tmp/.ICE-unix/1291'), ('INVOCATION_ID', '5d2b94eced38449885524a4e4cfc18be'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y2I0H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:367b814e-910c-4d17-9e23-42ddc53edb2a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/xamjam/ros2_ws/build/turtle_sim_project'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/xamjam/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble')]), 'shell': False}
+[0.637068] (turtle_sim_project) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_spawner_node\x1b[0m\n'}
+[0.646538] (turtle_sim_project) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller_node.dir/src/turtle_controller_node.cpp.o\x1b[0m\n'}
+[0.651928] (turtle_sim_project) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_spawner_node.dir/src/turtle_spawner.cpp.o\x1b[0m\n'}
+[0.700480] (-) TimerEvent: {}
+[0.800740] (-) TimerEvent: {}
+[0.900978] (-) TimerEvent: {}
+[1.001215] (-) TimerEvent: {}
+[1.101461] (-) TimerEvent: {}
+[1.201690] (-) TimerEvent: {}
+[1.301930] (-) TimerEvent: {}
+[1.402167] (-) TimerEvent: {}
+[1.502406] (-) TimerEvent: {}
+[1.602648] (-) TimerEvent: {}
+[1.702887] (-) TimerEvent: {}
+[1.803124] (-) TimerEvent: {}
+[1.903360] (-) TimerEvent: {}
+[2.003607] (-) TimerEvent: {}
+[2.103855] (-) TimerEvent: {}
+[2.204093] (-) TimerEvent: {}
+[2.234076] (turtle_sim_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtleSpawnerNode::kill_turtle_service_response_callback(custom_interfaces::srv::TurtleKill_Request_<std::allocator<void> >::SharedPtr, custom_interfaces::srv::TurtleKill_Response_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.234246] (turtle_sim_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:39:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdeclaration of \xe2\x80\x98\x1b[01m\x1b[Kauto request\x1b[m\x1b[K\xe2\x80\x99 shadows a parameter\n'}
+[2.234307] (turtle_sim_project) StderrLine: {'line': b'   39 |         auto \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K = std::make_shared<turtlesim::srv::Kill::Request>();\n'}
+[2.234370] (turtle_sim_project) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.234422] (turtle_sim_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:36:103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcustom_interfaces::srv::TurtleKill_Request_<std::allocator<void> >::SharedPtr request\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[2.234478] (turtle_sim_project) StderrLine: {'line': b'   36 |     void kill_turtle_service_response_callback(\x1b[01;36m\x1b[Kcustom_interfaces::srv::TurtleKill::Request::SharedPtr request\x1b[m\x1b[K,\n'}
+[2.234531] (turtle_sim_project) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.238571] (turtle_sim_project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xamjam/ros2_ws/src/turtle_sim_project/src/turtle_spawner.cpp:36:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.304182] (-) TimerEvent: {}
+[2.404433] (-) TimerEvent: {}
+[2.504692] (-) TimerEvent: {}
+[2.604975] (-) TimerEvent: {}
+[2.705253] (-) TimerEvent: {}
+[2.805521] (-) TimerEvent: {}
+[2.905801] (-) TimerEvent: {}
+[3.006077] (-) TimerEvent: {}
+[3.106341] (-) TimerEvent: {}
+[3.206605] (-) TimerEvent: {}
+[3.306889] (-) TimerEvent: {}
+[3.405102] (turtle_sim_project) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_spawner_node.dir/build.make:76: CMakeFiles/turtle_spawner_node.dir/src/turtle_spawner.cpp.o] Error 1\n'}
+[3.405326] (turtle_sim_project) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_spawner_node.dir/all] Error 2\n'}
+[3.405433] (turtle_sim_project) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.406948] (-) TimerEvent: {}
+[3.507160] (-) TimerEvent: {}
+[3.607429] (-) TimerEvent: {}
+[3.707704] (-) TimerEvent: {}
+[3.807977] (-) TimerEvent: {}
+[3.908247] (-) TimerEvent: {}
+[4.008522] (-) TimerEvent: {}
+[4.108780] (-) TimerEvent: {}
+[4.209015] (-) TimerEvent: {}
+[4.309255] (-) TimerEvent: {}
+[4.409486] (-) TimerEvent: {}
+[4.509717] (-) TimerEvent: {}
+[4.609947] (-) TimerEvent: {}
+[4.710176] (-) TimerEvent: {}
+[4.810405] (-) TimerEvent: {}
+[4.910650] (-) TimerEvent: {}
+[5.010886] (-) TimerEvent: {}
+[5.111108] (-) TimerEvent: {}
+[5.211334] (-) TimerEvent: {}
+[5.311555] (-) TimerEvent: {}
+[5.411790] (-) TimerEvent: {}
+[5.512018] (-) TimerEvent: {}
+[5.612259] (-) TimerEvent: {}
+[5.712493] (-) TimerEvent: {}
+[5.812726] (-) TimerEvent: {}
+[5.912955] (-) TimerEvent: {}
+[6.013189] (-) TimerEvent: {}
+[6.113414] (-) TimerEvent: {}
+[6.213638] (-) TimerEvent: {}
+[6.313859] (-) TimerEvent: {}
+[6.414075] (-) TimerEvent: {}
+[6.514293] (-) TimerEvent: {}
+[6.614530] (-) TimerEvent: {}
+[6.714755] (-) TimerEvent: {}
+[6.814971] (-) TimerEvent: {}
+[6.915193] (-) TimerEvent: {}
+[7.015412] (-) TimerEvent: {}
+[7.115627] (-) TimerEvent: {}
+[7.215854] (-) TimerEvent: {}
+[7.316076] (-) TimerEvent: {}
+[7.416318] (-) TimerEvent: {}
+[7.516546] (-) TimerEvent: {}
+[7.616788] (-) TimerEvent: {}
+[7.717028] (-) TimerEvent: {}
+[7.817276] (-) TimerEvent: {}
+[7.901512] (turtle_sim_project) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller_node\x1b[0m\n'}
+[7.917541] (-) TimerEvent: {}
+[8.017740] (-) TimerEvent: {}
+[8.117983] (-) TimerEvent: {}
+[8.218230] (-) TimerEvent: {}
+[8.262991] (turtle_sim_project) StdoutLine: {'line': b'[ 75%] Built target turtle_controller_node\n'}
+[8.263861] (turtle_sim_project) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.265293] (turtle_sim_project) CommandEnded: {'returncode': 2}
+[8.318396] (-) TimerEvent: {}
+[8.325070] (turtle_sim_project) JobEnded: {'identifier': 'turtle_sim_project', 'rc': 2}
+[8.335366] (-) EventReactorShutdown: {}

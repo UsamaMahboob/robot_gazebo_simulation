@@ -1,0 +1,4 @@
+Invoking command in '/home/xamjam/ros2_ws/build/turtle_sim_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xamjam/ros2_ws/build/turtle_sim_project -- -j16 -l16
+Invoked command in '/home/xamjam/ros2_ws/build/turtle_sim_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xamjam/ros2_ws/build/turtle_sim_project -- -j16 -l16
+Invoking command in '/home/xamjam/ros2_ws/build/turtle_sim_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xamjam/ros2_ws/build/turtle_sim_project
+Invoked command in '/home/xamjam/ros2_ws/build/turtle_sim_project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xamjam/ros2_ws/build/turtle_sim_project

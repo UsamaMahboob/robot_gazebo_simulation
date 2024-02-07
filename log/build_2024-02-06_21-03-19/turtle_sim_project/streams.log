@@ -1,0 +1,28 @@
+[0.042s] Invoking command in '/home/xamjam/ros2_ws/build/turtle_sim_project': CMAKE_PREFIX_PATH=/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble /usr/bin/cmake --build /home/xamjam/ros2_ws/build/turtle_sim_project -- -j16 -l16
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target turtle_spawner_node[0m
+[0.082s] [ 50%] Built target turtle_controller_node
+[0.088s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_spawner_node.dir/src/turtle_spawner.cpp.o[0m
+[4.164s] [100%] [32m[1mLinking CXX executable turtle_spawner_node[0m
+[4.347s] [100%] Built target turtle_spawner_node
+[4.357s] Invoked command in '/home/xamjam/ros2_ws/build/turtle_sim_project' returned '0': CMAKE_PREFIX_PATH=/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble /usr/bin/cmake --build /home/xamjam/ros2_ws/build/turtle_sim_project -- -j16 -l16
+[4.379s] Invoking command in '/home/xamjam/ros2_ws/build/turtle_sim_project': CMAKE_PREFIX_PATH=/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble /usr/bin/cmake --install /home/xamjam/ros2_ws/build/turtle_sim_project
+[4.385s] -- Install configuration: ""
+[4.385s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/lib/turtle_sim_project/turtle_controller_node
+[4.385s] -- Installing: /home/xamjam/ros2_ws/install/turtle_sim_project/lib/turtle_sim_project/turtle_spawner_node
+[4.389s] -- Set runtime path of "/home/xamjam/ros2_ws/install/turtle_sim_project/lib/turtle_sim_project/turtle_spawner_node" to ""
+[4.389s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/ament_index/resource_index/package_run_dependencies/turtle_sim_project
+[4.389s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/ament_index/resource_index/parent_prefix_path/turtle_sim_project
+[4.389s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/environment/ament_prefix_path.sh
+[4.389s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/environment/ament_prefix_path.dsv
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/environment/path.sh
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/environment/path.dsv
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/local_setup.bash
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/local_setup.sh
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/local_setup.zsh
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/local_setup.dsv
+[4.390s] -- Installing: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/package.dsv
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/ament_index/resource_index/packages/turtle_sim_project
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/cmake/turtle_sim_projectConfig.cmake
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/cmake/turtle_sim_projectConfig-version.cmake
+[4.390s] -- Up-to-date: /home/xamjam/ros2_ws/install/turtle_sim_project/share/turtle_sim_project/package.xml
+[4.391s] Invoked command in '/home/xamjam/ros2_ws/build/turtle_sim_project' returned '0': CMAKE_PREFIX_PATH=/home/xamjam/ros2_ws/install/custom_interfaces:/home/xamjam/ros2_ws/install/turtle_sim_project:/opt/ros/humble /usr/bin/cmake --install /home/xamjam/ros2_ws/build/turtle_sim_project
