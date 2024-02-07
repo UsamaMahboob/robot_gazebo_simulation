@@ -23,12 +23,14 @@ public:
         }
 
         turtle_counter = 0;
+        this->declare_parameter("turtle_spawn_period_in_milliseconds", 1000);
+        turtle_spawn_period = this->get_parameter("turtle_spawn_period_in_milliseconds").as_int();
 
         turtle_kill_server_ = this->create_service<custom_interfaces::srv::TurtleKill>("/remove_turtle",
                                                                                        std::bind(&TurtleSpawnerNode::kill_turtle_service_response_callback, this, std::placeholders::_1, std::placeholders::_2));
 
         spawn_publisher_ = this->create_publisher<custom_interfaces::msg::TurtleArray>("/turtle_spawn_locations", 10);
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&TurtleSpawnerNode::spawner_callback, this));
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(turtle_spawn_period), std::bind(&TurtleSpawnerNode::spawner_callback, this));
     }
 
 private:
@@ -131,6 +133,7 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Client<turtlesim::srv::Kill>::SharedPtr turtle_killer_service_client_;
     std::string name_prefix = "my_turtle";
+    int turtle_spawn_period;
     int turtle_counter;
 };
 

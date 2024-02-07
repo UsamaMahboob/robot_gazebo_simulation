@@ -16,7 +16,10 @@ public:
     {
         my_pose_.set__x(-10.0); // This means these variables do not have any useful values as -10 is out of bounds so they will serve as a check to check initialization
         turtle_found = false;
-        kill_closest_turtle = true; // It will kill the turtle closest to the main turtle first
+
+        this->declare_parameter("kill_closest_turtle_first", true);
+
+        kill_closest_turtle = this->get_parameter("kill_closest_turtle_first").as_bool(); // It will kill the turtle closest to the main turtle first
 
         pose_subscriber_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10,
                                                                            std::bind(&TurtleControllerNode::pose_subscriber_callback, this, std::placeholders::_1));
@@ -25,7 +28,7 @@ public:
                                                                                                   std::bind(&TurtleControllerNode::alive_turtles_subscriber_callback, this, std::placeholders::_1));
 
         remove_turtle_from_list_client_ = this->create_client<custom_interfaces::srv::TurtleKill>("/remove_turtle");
-        while (remove_turtle_from_list_client_->wait_for_service(std::chrono::seconds(1)))
+        while (!remove_turtle_from_list_client_->wait_for_service(std::chrono::seconds(10)))
         {
             RCLCPP_WARN(this->get_logger(), "waiting for /remove_turtle server to be up..");
         }
