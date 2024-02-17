@@ -1,8 +1,0 @@
-{
-  "package_name": "custom_interfaces",
-  "non_idl_tuples": [
-    "/home/xamjam/ros2_ws/src/custom_interfaces:msg/Turtle.msg",
-    "/home/xamjam/ros2_ws/src/custom_interfaces:msg/TurtleArray.msg",
-    "/home/xamjam/ros2_ws/src/custom_interfaces:srv/TurtleKill.srv"
-  ]
-}
