@@ -1,18 +1,19 @@
 <launch>
 
-    <let name="urdf_path" 
+    <let name="urdf_path"
         value="$(find-pkg-share my_robot_description)/urdf/standalone_arm.urdf.xacro" />
 
     <let name="rviz_config_path"
         value="$(find-pkg-share my_robot_bringup)/rviz/my_robot.rviz" />
-
+        
+    <!-- This will read the joint states and use the urdf to publish the tfs -->
     <node pkg="robot_state_publisher" exec="robot_state_publisher">
         <param name="robot_description"
             value="$(command 'xacro $(var urdf_path)')" />
     </node>
 
     <include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py">
-    <arg name="world" value="$(find-pkg-share my_robot_bringup)/worlds/test_world.world" />
+        <arg name="world" value="$(find-pkg-share my_robot_bringup)/worlds/test_world.world" />
 
     </include>
 
@@ -20,5 +21,5 @@
         args="-topic robot_description -entity my_robot" />
 
     <node pkg="rviz2" exec="rviz2" output="screen" args=" -d
-        $(var rviz_config_path)"/>
+        $(var rviz_config_path)" />
 </launch>
